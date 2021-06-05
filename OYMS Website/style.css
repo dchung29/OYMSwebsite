@@ -255,10 +255,7 @@ body {
     margin-right:100px;
 }
 
-footer {
-    display: block;
-    background-color:orange;
-}
+
 
 .page-title {
     font-size: 3rem;
@@ -273,6 +270,8 @@ h1 {
 .logo{
     cursor:pointer;
     margin-right: auto;
+    
+    
 }
 
 
