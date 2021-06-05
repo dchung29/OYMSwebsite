@@ -208,7 +208,7 @@ body {
 
 
 /*Whats Happening section*/
-.WH-content{
+.WhatsHappening-container{
     color: black;
     padding: 50px;
     background-color: var(--color2);
@@ -229,7 +229,7 @@ body {
 }
 
 .p{
-    
+
 }
 
 
