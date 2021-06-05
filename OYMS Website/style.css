@@ -228,9 +228,6 @@ body {
     height: 90vh;
 }
 
-.p{
-    
-}
 
 
 /* Who are we section end */
@@ -256,14 +253,17 @@ body {
 }
 
 h1 {
-    text-align:center
+    text-align:center;
 }
 
 .logo{
     cursor:pointer;
     margin-right: auto;
+     
+}
+
+h4{
+    text-align: center;
     
     
 }
-
-
