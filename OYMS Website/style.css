@@ -185,7 +185,26 @@ body {
 }
 
 #hero h2:nth-child(1){
-    
+    animation-delay: 1s;
+}
+
+#hero h2:nth-child(2){
+    animation: text-reveal-name .5s ease forwards;
+    animation-delay: 1s;
+}
+
+#hero h2 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #F37E4B;
+    animation: text_reveal_box 1s ease;
+}
+
+#hero h2:nth-child(1) span{
+    animation-delay: .5s;
 }
 
 
