@@ -99,15 +99,15 @@ body {
 
 #header .nav-container{
     background-color: white;
-    box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
-    height: 72px;
+    height: 90px;
 }
 
+
 #header nav {
-    padding: 50px;
+    padding: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100px;
     width: 95vw;
 
@@ -143,25 +143,33 @@ body {
     color: #02BABC;
 }
 
-
 #header .nav-items li a{
     color: black;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
-
-
+#header .nav-items li a:hover{
+    color:#02BABC
+}
 
 /* Hero Section */
+
 #hero .hero-container {
     background-color: white;
-    background-position: right;
     background-size: contain;
-    height: calc(100vh);
+    height: calc(90vh);
     display: flex;
     align-items: center;
+
+}
+#hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    justify-content: flex-start;
 
 }
 
@@ -180,33 +188,7 @@ body {
     font-weight: 700;
     font-size: 4rem;
     line-height: 75px;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1s;
 }
-
-#hero h2:nth-child(1){
-    animation-delay: 1s;
-}
-
-#hero h2:nth-child(2){
-    animation: text-reveal-name .5s ease forwards;
-    animation-delay: 1s;
-}
-
-#hero h2 span{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background-color: #F37E4B;
-    animation: text_reveal_box 1s ease;
-}
-
-#hero h2:nth-child(1) span{
-    animation-delay: .5s;
-}
-
 
 #hero p{
     font-size: 18px;
@@ -216,6 +198,29 @@ body {
 }
 
 /* End of Hero Section*/
+
+/*Whats Happening section*/
+.WH-content{
+    color: black;
+    padding: 50px;
+    background-color: var(--color2);
+    height: 80vh;
+}
+
+
+/*Whats Happening section end*/
+
+/* Who are we section */
+.Who-Are-We{
+    color: black;
+    padding: 50px; 
+    background-color: white;
+    height: 90vh;
+}
+
+
+/* Who are we section */
+
 
 
 
@@ -243,6 +248,11 @@ footer {
 
 h1 {
     text-align:center
+}
+
+.logo{
+    cursor:pointer;
+    margin-right: auto;
 }
 
 

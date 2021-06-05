@@ -17,14 +17,34 @@ footer {
     font-family: Poppins;
     color: white;
     font-size: 16px;
-    padding: 45px 200px;
-
-    
+    padding: 45px 200px;   
 }
-
 .social-logos {
     padding: 75px 200px;
     float: right;
+}
 
-    
+.blogtitle{
+    padding: 45px 200px;
+    font-size: 50px;  
+}
+
+.whitelink{
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.updatemessage{
+    background-color:var(--color2);
+    background-position: center;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 25px 300px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.updatetitle{
+    font-size: 40px;
 }
