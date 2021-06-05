@@ -150,6 +150,7 @@ footer {
 
 .page-title {
     margin: 35px;
+    text-transform: uppercase;
 }
 
 h1 {
