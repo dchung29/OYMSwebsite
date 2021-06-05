@@ -164,6 +164,10 @@ body {
     align-items: center;
 
 }
+#hero .hero{
+    max-width: 1200px;
+
+}
 
 #hero header{
     display: flex;
@@ -205,6 +209,10 @@ body {
 
 #hero h2:nth-child(1) span{
     animation-delay: .5s;
+}
+
+#hero h1:nth-child(2) span{
+    animation-delay: 1.5s;
 }
 
 
