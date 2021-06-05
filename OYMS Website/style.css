@@ -11,7 +11,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: "Open-sans", sans-serif;
 }
@@ -31,7 +30,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+.pres-msg {
+    display:flex;
 }
 
 .our-mission {
@@ -50,3 +52,19 @@ nav {
     margin-right:100px;
 }
 
+.member-gallery {
+    margin-top: 100px;
+    padding: 0px, 0px, 200px, 200px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.member-pic {
+    margin: 50px;
+}
+
+.thumbnail {
+    width:500px;
+    height:auto;
+}
