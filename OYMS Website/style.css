@@ -13,7 +13,7 @@
 
 
 body {
-    font-family: "Open-sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .nav-container{
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav .logo {
-    font-family: Roboto;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
@@ -55,6 +55,11 @@ nav .logo {
 
 .nav-items li:nth-last-of-type(1){
     margin: 0;
+}
+
+.nav-items li a{
+    color: black;
+    font-size: 24;
 }
 
 
