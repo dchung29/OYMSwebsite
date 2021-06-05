@@ -88,6 +88,24 @@
     box-sizing: border-box;
 }
 
+
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: var(--color1);
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition-property: background-color, var(--color1);
+    text-decoration: none;
+}
+
+.cta:hover{
+    color: white;
+    background-color: #4162cf;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -185,8 +203,9 @@ body {
     color: darkgrey;
     width: 800px;
 }
-
 /* End of Hero Section*/
+
+
 
 /*Whats Happening section*/
 .WH-content{
@@ -198,6 +217,8 @@ body {
 
 
 /*Whats Happening section end*/
+
+
 
 /* Who are we section */
 .Who-Are-We{
@@ -212,8 +233,6 @@ body {
 
 
 
-
-
 #navya-img {
     width: 400px;
     height: auto;
@@ -224,10 +243,7 @@ body {
     margin-right:100px;
 }
 
-footer {
-    display: block;
-    background-color:orange;
-}
+
 
 .page-title {
     font-size: 3rem;
@@ -242,6 +258,8 @@ h1 {
 .logo{
     cursor:pointer;
     margin-right: auto;
+    
+    
 }
 
 
