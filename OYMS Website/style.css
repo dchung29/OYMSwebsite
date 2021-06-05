@@ -93,7 +93,7 @@ body {
 }
 
 #header .wrapper {
-    max-width: 1300px;
+    width: 1200px;
     margin: 0;
 }
 
@@ -155,13 +155,65 @@ body {
 
 
 /* Hero Section */
-
-
-#hero::after {
-
+#hero .hero-container {
+    background-color: white;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh);
+    display: flex;
+    align-items: center;
 
 }
 
+#hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#hero h2 {
+    display: block;
+    width: fit-content;
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 75px;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1s;
+}
+
+#hero h2:nth-child(1){
+    animation-delay: 1s;
+}
+
+#hero h2:nth-child(2){
+    animation: text-reveal-name .5s ease forwards;
+    animation-delay: 1s;
+}
+
+#hero h2 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #F37E4B;
+    animation: text_reveal_box 1s ease;
+}
+
+#hero h2:nth-child(1) span{
+    animation-delay: .5s;
+}
+
+
+#hero p{
+    font-size: 18px;
+    line-height: 42px;
+    color: darkgrey;
+    width: 800px;
+}
 
 /* End of Hero Section*/
 
