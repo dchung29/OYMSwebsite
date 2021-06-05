@@ -18,7 +18,7 @@
 }
 
 .event .event-left {
-    background: #222;
+    background: #F37E4B;
     min-width: 82px;
     display:flex;
     align-items: center;
@@ -28,4 +28,8 @@
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size:56px;
 }
