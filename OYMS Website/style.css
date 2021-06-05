@@ -183,6 +183,10 @@ footer {
     background-color:orange;
 }
 
+.page-title {
+    margin: 35px;
+}
+
 h1 {
     text-align:center
 }
