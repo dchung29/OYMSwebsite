@@ -19,13 +19,17 @@ body{
 
 .wrapper {
     max-width: 1200px;
-    margin: 0 auto;
-
+    margin: 0;
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
+.nav-items li {
+    list-style: none;
+    margin-right:100px;
+}
+
