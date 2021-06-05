@@ -156,7 +156,7 @@ body {
 #hero .hero-container {
     background-color: white;
     background-size: contain;
-    height: calc(100vh);
+    height: calc(90vh);
     display: flex;
     align-items: center;
 
@@ -164,7 +164,7 @@ body {
 #hero {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 40px;
     justify-content: flex-start;
 
 }
@@ -184,10 +184,7 @@ body {
     font-weight: 700;
     font-size: 4rem;
     line-height: 75px;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1s;
 }
-
 
 #hero p{
     font-size: 18px;
@@ -197,6 +194,29 @@ body {
 }
 
 /* End of Hero Section*/
+
+/*Whats Happening section*/
+.WH-content{
+    color: black;
+    padding: 50px;
+    background-color: var(--color2);
+    height: 80vh;
+}
+
+
+/*Whats Happening section end*/
+
+/* Who are we section */
+.Who-Are-We{
+    color: black;
+    padding: 50px; 
+    background-color: white;
+    height: 90vh;
+}
+
+
+/* Who are we section */
+
 
 
 
