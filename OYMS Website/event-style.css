@@ -1,8 +1,8 @@
 .event-container{
     max-width:800px;
     margin: 0 auto;
-
 }
+
 .event-container h3.year{
     font-size: 30px;
     text-align: center;
@@ -46,7 +46,7 @@
 }
 
 .event .event-right .event-timing{
-    background: #A5CAFF;
+    background: #FFDCA5;
     display: flex;
     align-items:center;
     justify-content: center;
