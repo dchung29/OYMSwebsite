@@ -155,13 +155,9 @@ body {
 
 
 /* Hero Section */
-
-
-#hero::after {
-
-
+#hero .hero-container {
+    background-color: white;
 }
-
 
 /* End of Hero Section*/
 
