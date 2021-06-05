@@ -29,3 +29,17 @@ nav{
     justify-content: space-between;
 
 }
+
+#navya-img {
+    width: 400px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pres-msg {
+    display:flex;
+}
