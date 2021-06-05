@@ -33,3 +33,21 @@
 .event .event-left .date {
     font-size:56px;
 }
+
+.event .event-left .month{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+
+}
