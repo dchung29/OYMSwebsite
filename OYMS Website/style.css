@@ -53,4 +53,7 @@ nav ul {
     list-style: none;
     margin-right:100px;
 }
-
+footer {
+    display: block;
+    background-color:orange;
+  }
