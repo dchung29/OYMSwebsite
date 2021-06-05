@@ -30,6 +30,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 72px;
 }
 
 .pres-msg {
@@ -65,10 +66,6 @@ nav .logo {
     font-family: "Poppins", sans-serif;
     text-decoration: none;
 }
-
-
-
-
 
 
 .our-mission {
