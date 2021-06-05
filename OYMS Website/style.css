@@ -92,29 +92,32 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.nav-container{
+#header .wrapper {
+    max-width: 1300px;
+    margin: 0;
+}
+
+#header .nav-container{
     background-color: white;
     box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
     height: 72px;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0;
-}
-
-nav {
+#header nav {
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;
+    height: 100px;
+    width: 95vw;
+
 }
 
-nav ul {
+#header nav ul {
     display: flex;
 }
 
-nav .logo {
+#header nav .logo {
     font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
@@ -122,20 +125,52 @@ nav .logo {
     line-height: 10px;
 }
 
-.nav-items li{
+#header .nav-items li{
     list-style: none;
     margin-right: 100px;
 }
 
-.nav-items li:nth-last-of-type(1){
+#header .nav-items li:nth-last-of-type(1){
     margin: 0;
 }
 
-.nav-items li a{
+#header .nav-list ul li:hover a::after {
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: initial;
+}
+
+#header .nav-list ul li:hover a{
+    color: #02BABC;
+}
+
+
+#header .nav-items li a{
     color: black;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+}
+
+
+
+
+/* Hero Section */
+
+
+#hero::after {
+
+
+}
+
+
+/* End of Hero Section*/
+
+
+
+
+#navya-img {
+    width: 400px;
+    height: auto;
 }
 
 .nav-items li {
@@ -156,3 +191,5 @@ footer {
 h1 {
     text-align:center
 }
+
+
