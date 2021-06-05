@@ -85,6 +85,10 @@ nav .logo {
     list-style: none;
     margin-right:100px;
 }
+footer {
+    display: block;
+    background-color:orange;
+  }
 
 h1 {
     text-align:center
