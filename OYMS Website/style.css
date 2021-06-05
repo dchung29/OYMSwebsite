@@ -88,6 +88,26 @@
     box-sizing: border-box;
 }
 
+
+
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: var(--color1);
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3 ease;
+    transition-property: background-color, var(--color1);
+}
+
+.cta:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -102,11 +122,12 @@ body {
     height: 90px;
 }
 
+
 #header nav {
     padding: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100px;
     width: 95vw;
 
@@ -134,7 +155,6 @@ body {
 }
 
 #header .nav-list ul li:hover a::after {
-    transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
 }
 
@@ -142,14 +162,17 @@ body {
     color: #02BABC;
 }
 
-
 #header .nav-items li a{
     color: black;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
+#header .nav-items li a:hover{
+    color:#02BABC
+}
 
 /* Hero Section */
 
@@ -192,8 +215,9 @@ body {
     color: darkgrey;
     width: 800px;
 }
-
 /* End of Hero Section*/
+
+
 
 /*Whats Happening section*/
 .WH-content{
@@ -206,6 +230,8 @@ body {
 
 /*Whats Happening section end*/
 
+
+
 /* Who are we section */
 .Who-Are-We{
     color: black;
@@ -216,8 +242,6 @@ body {
 
 
 /* Who are we section */
-
-
 
 
 
@@ -244,6 +268,11 @@ footer {
 
 h1 {
     text-align:center
+}
+
+.logo{
+    cursor:pointer;
+    margin-right: auto;
 }
 
 
