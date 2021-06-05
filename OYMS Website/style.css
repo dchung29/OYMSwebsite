@@ -33,11 +33,6 @@ nav {
     height: 72px;
 }
 
-.pres-msg {
-    display:flex;
-    height: 72px;
-}
-
 nav ul {
     display: flex;
 }
@@ -53,7 +48,6 @@ nav .logo {
 .nav-items li{
     list-style: none;
     margin-right: 100px;
-
 }
 
 .nav-items li:nth-last-of-type(1){
@@ -67,18 +61,10 @@ nav .logo {
     text-decoration: none;
 }
 
-
-.our-mission {
-    color: white;
-    padding: 50px;
-    background-color: var(--color2);
-}
-
 #navya-img {
     width: 400px;
     height: auto;
 }
-
 
 .nav-items li {
     list-style: none;
@@ -93,7 +79,6 @@ footer {
 h1 {
     text-align:center
 }
-
 
 
 .member-gallery {
