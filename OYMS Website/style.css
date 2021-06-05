@@ -59,8 +59,11 @@ nav .logo {
 
 .nav-items li a{
     color: black;
-    font-size: 24;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
+
 
 
 
