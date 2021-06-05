@@ -18,7 +18,7 @@ body {
 
 .nav-container{
     background-color: white;
-    box-shadow: 0px 8px 24px (0,0,0,0.1);
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
     height: 72px;
 }
 
@@ -31,8 +31,35 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 72px;
 
 }
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 10px;
+}
+
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+
+
+
+
 
 .our-mission {
     color: white;
@@ -45,9 +72,6 @@ nav {
     height: auto;
 }
 
-nav ul {
-    display: flex;
-}
 
 .nav-items li {
     list-style: none;
