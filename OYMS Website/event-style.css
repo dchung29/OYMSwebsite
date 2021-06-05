@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding:8px 48px;
+    padding:8px 45px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
@@ -50,7 +50,7 @@
     display: flex;
     align-items:center;
     justify-content: center;
-    width:100px;
+    width:130px;
     padding: 8px;
     border-radius: 16px;
     margin:24px 0;
