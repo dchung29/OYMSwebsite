@@ -22,8 +22,9 @@ footer {
     
 }
 
-social-logos {
-    right: 0px;
+.social-logos {
+    padding: 75px 200px;
+    float: right;
 
     
 }
