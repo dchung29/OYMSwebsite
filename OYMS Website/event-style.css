@@ -46,8 +46,14 @@
     padding: 0 24px;
 }
 
-.event .event-right h3.event-title {
-    font-size: 24px;
-    margin: 24px 0 10px 0;
-
+.event .event-right .event-timing{
+    background: #A5CAFF;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin:24px 0;
+    font-size:14px;
 }

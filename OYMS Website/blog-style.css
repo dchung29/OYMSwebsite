@@ -4,15 +4,27 @@
     --color1: #F37E4B;
     --color2: #02BABC;
 }
+
 footer {
+    
     position: absolute;
     bottom:0;
     width:100%;
-    height: 20;
-    display: block;
+    
+    height: 80;
+    
     background-color:var(--color1);
     font-family: Poppins;
     color: white;
     font-size: 16px;
+    padding: 45px 200px;
 
-  }
+    
+}
+
+.social-logos {
+    padding: 75px 200px;
+    float: right;
+
+    
+}
