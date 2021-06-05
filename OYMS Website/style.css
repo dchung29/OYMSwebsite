@@ -28,6 +28,10 @@ nav {
     justify-content: space-between;
 }
 
+nav ul {
+    display: flex;
+}
+
 .nav-items li {
     list-style: none;
     margin-right:100px;
