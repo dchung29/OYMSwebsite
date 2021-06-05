@@ -132,29 +132,47 @@ body {
 
 #header nav ul {
     display: flex;
-    position: absolute;
 }
 
-#header .nav-items li{
+#header nav ul li{
     list-style: none;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
-#header .nav-items li:nth-last-of-type(1){
-    margin: 0;
-}
-
-#header .nav-items li a{
-    color: black;
+#header nav ul li a{
+    color: 000;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
-    
-    transition: all 0.3s ease 0s;
+    letter-spacing: 0.10em;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
 }
 
-#header .nav-items li a:hover{
+#header nav ul li a:hover {
     color:var(--color2);
+}
+
+#header nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color1);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#header nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+#header nav ul li:nth-last-of-type(1){
+    margin: 0;
 }
 
 #header nav .logo {
@@ -256,7 +274,8 @@ body {
 }
 
 h1 {
-    text-align:center
+    font-weight: 700;
+    text-align:center;
 }
 
 .logo{
