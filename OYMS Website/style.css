@@ -103,7 +103,7 @@
 
 .cta:hover{
     color: white;
-    background-color: #4162cf;
+    background-color: var(--color2);
 }
 
 body {
@@ -255,6 +255,7 @@ body {
     padding: 50px;
     background-color: var(--color2);
     height: 80vh;
+    direction: row;
 }
 
 
