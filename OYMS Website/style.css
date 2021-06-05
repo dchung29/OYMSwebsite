@@ -135,7 +135,6 @@ body {
 }
 
 #header .nav-list ul li:hover a::after {
-    transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
 }
 
