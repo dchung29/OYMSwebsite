@@ -56,3 +56,20 @@
     margin:24px 0;
     font-size:14px;
 }
+
+@media (max-width:550px){
+    .event {
+        flex-direction: column; 
+    }
+    .event .event-left{
+        padding: 0;
+        border-radius:8px 8px 0 0;
+    }
+    .event .event-left .event-date .date, .event .event-left .event-date .month{
+        display: inline-block;
+        font-size: 24px;
+    }
+    .event .event-left .event-date{
+        padding:10px 0;
+    }
+}
