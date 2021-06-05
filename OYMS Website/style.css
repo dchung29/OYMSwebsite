@@ -92,6 +92,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+#header .wrapper {
+    width: 1200px;
+    margin: 0;
+}
 
 #header .nav-container{
     background-color: white;
@@ -147,36 +151,23 @@ body {
 }
 
 
-
-
 /* Hero Section */
+
 #hero .hero-container {
     background-color: white;
-    background-position: top-center;
     background-size: contain;
     height: calc(100vh);
     display: flex;
     align-items: center;
 
 }
-
 #hero {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
 
 }
-
-#hero::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
-
 
 #hero header{
     display: flex;
@@ -197,33 +188,7 @@ body {
     animation-delay: 1s;
 }
 
-#hero h2:nth-child(1){
-    animation-delay: 1s;
-}
 
-#hero h2:nth-child(2){
-    animation: text-reveal-name .5s ease forwards;
-    animation-delay: 2s;
-}
-
-#hero h2 span{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background-color: #F37E4B;
-    animation: text_reveal_box 1s ease;
-    animation-delay: .5s;
-}
-
-#hero h2:nth-child(1) span{
-    animation-delay: .5s;
-}
-
-#hero h2:nth-child(2) span{
-    animation-delay: 1.5s;
-}
 
 #hero p{
     font-size: 18px;
