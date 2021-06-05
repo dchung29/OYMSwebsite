@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-:root {
-    --color1: #F37E4B;
-    --color2: #02BABC;
-}
-
 .pres-msg {
     display:flex;
+}
+
+#navya-img {
+    width: 400px;
+    height: auto;
 }
 
 .our-mission {
