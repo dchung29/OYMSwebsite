@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-
 :root {
     --color1: #F37E4B;
     --color2: #02BABC;
@@ -80,23 +78,4 @@ footer {
 h1 {
     text-align:center
 }
-
-
-.member-gallery {
-    margin-top: 100px;
-    padding: 0px, 0px, 200px, 200px;
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
-}
-
-.member-pic {
-    margin: 50px;
-}
-
-.thumbnail {
-    width:500px;
-    height:auto;
-}
-
 
