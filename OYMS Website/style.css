@@ -226,7 +226,9 @@ body {
 
 
 /*Whats Happening section*/
-.WH-content{
+
+
+.WhatsHappening-container{
     color: black;
     padding: 50px;
     background-color: var(--color2);
@@ -246,9 +248,7 @@ body {
     height: 90vh;
 }
 
-.p{
-    
-}
+
 
 
 /* Who are we section end */
@@ -281,8 +281,11 @@ h1 {
 .logo{
     cursor:pointer;
     margin-right: auto;
+     
+}
+
+h4{
+    text-align: center;
     
     
 }
-
-
