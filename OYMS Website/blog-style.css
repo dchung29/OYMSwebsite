@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+html{
+    position: relative;
+}
+body{
+    min-height: 400px;
+    margin-bottom: 600px;
+    clear: both;
+}
+
 :root {
     --color1: #F37E4B;
     --color2: #02BABC;
