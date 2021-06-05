@@ -17,17 +17,16 @@
 
 .member-gallery {
     margin-top: 100px;
-    padding: 0px, 0px, 200px, 200px;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center;
 }
 
 .member-pic {
-    margin: 50px;
+    margin: 25px;
 }
 
 .thumbnail {
-    width:500px;
+    width:300px;
     height:auto;
 }
