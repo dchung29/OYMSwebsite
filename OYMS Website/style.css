@@ -59,8 +59,11 @@ nav .logo {
 
 .nav-items li a{
     color: black;
-    font-size: 24;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
+
 
 
 
@@ -82,10 +85,15 @@ nav .logo {
     list-style: none;
     margin-right:100px;
 }
+footer {
+    display: block;
+    background-color:orange;
+  }
 
 h1 {
     text-align:center
 }
+<<<<<<< HEAD
 
 .event-container{
     font-family: "Roboto", sans-serif;
@@ -103,3 +111,5 @@ h1 {
 .event-container .event{
     box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
 }
+=======
+>>>>>>> 0670d15cf1803c9e68ad45fa5bafca8e37cabbc8
