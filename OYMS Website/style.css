@@ -99,6 +99,8 @@
     margin-top: 30px;
     transition-property: background-color, var(--color1);
     text-decoration: none;
+
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .cta:hover{
@@ -269,7 +271,8 @@ body {
 
 .page-title {
     font-size: 3rem;
-    margin: 35px;
+    margin-top: 100px;
+    margin-bottom: 35px;
     text-transform: uppercase;
 }
 
