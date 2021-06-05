@@ -1,5 +1,5 @@
 .event-container{
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     max-width:800px;
     margin: 0 auto;
 
@@ -47,7 +47,7 @@
 }
 
 .event .event-right .event-timing{
-    background: #A5CAFF;
+    background: #FFDCA5;
     display: flex;
     align-items:center;
     justify-content: center;
