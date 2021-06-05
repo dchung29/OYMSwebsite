@@ -2,6 +2,12 @@
 
 .pres-msg {
     display:flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pres-msg > * {
+    margin: 15px;
 }
 
 #navya-img {
