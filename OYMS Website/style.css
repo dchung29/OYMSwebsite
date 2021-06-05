@@ -102,11 +102,12 @@ body {
     height: 90px;
 }
 
+
 #header nav {
     padding: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100px;
     width: 95vw;
 
@@ -147,8 +148,12 @@ body {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
+#header .nav-items li a:hover{
+    color:#02BABC
+}
 
 /* Hero Section */
 
@@ -243,6 +248,11 @@ footer {
 
 h1 {
     text-align:center
+}
+
+.logo{
+    cursor:pointer;
+    margin-right: auto;
 }
 
 
