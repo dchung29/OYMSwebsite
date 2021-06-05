@@ -86,3 +86,20 @@ nav .logo {
 h1 {
     text-align:center
 }
+
+.event-container{
+    font-family: "Roboto", sans-serif;
+    max-width:800px;
+    margin: 0 auto;
+
+}
+
+.event-container h3.year{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event{
+    box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
+}
