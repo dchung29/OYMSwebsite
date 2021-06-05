@@ -22,7 +22,7 @@ body{
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
