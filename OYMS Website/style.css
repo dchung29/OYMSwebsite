@@ -30,6 +30,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 72px;
 }
 
 .pres-msg {
@@ -84,17 +85,16 @@ nav .logo {
     margin-right:100px;
 }
 
+footer {
+    display: block;
+    background-color:orange;
+}
 
 h1 {
     text-align:center
 }
 
-.event-container{
-    font-family: "Roboto", sans-serif;
-    max-width:800px;
-    margin: 0 auto;
 
-}
 
 .member-gallery {
     margin-top: 100px;
@@ -112,15 +112,5 @@ h1 {
     width:500px;
     height:auto;
 }
-.event-container h3.year{
-    font-size: 30px;
-    text-align: center;
-    border-bottom: 1px solid #b1b1b1;
-}
 
-.event-container .event{
-    box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
-    display: flex;
-    border-radius: 8px;
-    margin: 32px 0;
-}
+
