@@ -138,11 +138,6 @@ nav .logo {
     text-decoration: none;
 }
 
-#navya-img {
-    width: 400px;
-    height: auto;
-}
-
 .nav-items li {
     list-style: none;
     margin-right:100px;
@@ -151,6 +146,10 @@ nav .logo {
 footer {
     display: block;
     background-color:orange;
+}
+
+.page-title {
+    margin: 35px;
 }
 
 h1 {

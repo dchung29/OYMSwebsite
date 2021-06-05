@@ -4,6 +4,11 @@
     display:flex;
 }
 
+#navya-img {
+    width: 400px;
+    height: auto;
+}
+
 .our-mission {
     color: white;
     padding: 50px;
