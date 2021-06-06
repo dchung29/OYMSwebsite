@@ -290,12 +290,28 @@ body {
 
 
 /* Who are we section */
+#WhoAreWe .Who-Are-We-container{
+    color: black;
+    padding: 50px;
+    background-color: white;
+    height: 60vh;
+}
+
+#WhoAreWe .Who-Are-We-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
 .Who-Are-We{
     color: black;
     padding: 50px; 
     background-color: white;
     height: 90vh;
 }
+
+
 
 /* Who are we section end */
 
