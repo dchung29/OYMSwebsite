@@ -340,7 +340,8 @@ body {
 #ExclusiveOpportunities .newsletter > * {
     margin: 5px;
 }
-#ExclusiveOpportunities .newsletter .input {
+
+#ExclusiveOpportunities .newsletter input{
     width: 100%;
     max-width: 550px;
     padding: 20px 100px 20px 25px;
@@ -350,13 +351,24 @@ body {
     font-size: 15px;
 }
 
-#ExclusiveOpportunities .newsletter .button {
+#ExclusiveOpportunities .newsletter button{
+    padding:15px;
+    background: var(--color1);
+    border-radius: 5px;
+    font-size:15px;
+    cursor: pointer;
+    color:white;
+    border: none;
+    font-weight: bold;
+}
+
+/* #ExclusiveOpportunities .newsletter .button {
     padding: 15px;
     background: var(--color1);
     border-radius: 5px;
     font-size: 15px;
     cursor: pointer;
-}
+} */
 
 /* Exclusive opportunities End*/
 
