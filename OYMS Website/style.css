@@ -99,9 +99,29 @@
     margin-top: 30px;
     transition-property: background-color, var(--color1);
     text-decoration: none;
-
-    transition: all 0.3s ease-in-out 0s;
+    border-radius: 4px;
 }
+
+.cta1 {
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: #02BABC;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    font-size: 1.5rem;
+    outline: none;
+    text-decoration: none;
+}
+
+.cta1:hover {
+    box-shadow: inset 300px 0 0 0 #F37E4B;
+    color: white;
+}
+
 
 .cta:hover{
     color: white;
@@ -193,7 +213,7 @@ body {
 #hero .hero-container {
     background-color: white;
     background-size: contain;
-    height: 100vh;
+    height: calc(91vh);
     display: flex;
     align-items: center;
 
@@ -232,18 +252,26 @@ body {
 
 
 /*Whats Happening section*/
+
+#WhatsHappening .WhatsHappening-container{
+    color: black;
+    padding: 50px;
+    background-color: var(--color2);
+    height: 80vh;   
+}
+
 #WhatsHappening #WhatsHappening{
-    flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 #WhatsHappening .WH-items{
-    width: 400px;
+    width: 100%;
+    display: flex;
 }
 
 #WhatsHappening .WH-item{
-    width: 80%;
+    width: 100%;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -255,16 +283,6 @@ body {
     flex-direction: column;
     box-shadow: 0px 0px 18px 0 #0000002c;
 }
-
-#WhatsHappening .WhatsHappening-container{
-    color: black;
-    padding: 50px;
-    background-color: var(--color2);
-    height: 80vh;
-    direction: row;
-}
-
-
 
 
 /*Whats Happening section end*/
@@ -278,9 +296,6 @@ body {
     background-color: white;
     height: 90vh;
 }
-
-
-
 
 /* Who are we section end */
 
