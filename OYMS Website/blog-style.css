@@ -23,7 +23,6 @@ footer {
     height: 80;
     
     background-color:var(--color1);
-    font-family: Poppins;
     color: white;
     font-size: 16px;
     padding: 45px 200px;   
@@ -35,7 +34,7 @@ footer {
 
 .blogtitle{
     padding: 45px 200px;
-    font-size: 50px;  
+    font-size: 50px;
 }
 
 .whitelink{

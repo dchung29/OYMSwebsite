@@ -1,25 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+.about-oyms {
+    height: 90vh;
+    padding: 0 10% 0 10%;
+}
+
 .pres-msg {
-    display:flex;
-    max-width: 850px;
     margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    min-width: 50%
 }
 
 .pres-msg > * {
-    margin: 15px;
-}
-
-p {
-    margin-top: 15px;
+    margin: 2%;
 }
 
 #navya-img {
-    width: 400px;
+    width: 40vh;
     height: auto;
 }
 
-.our-mission {
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+
+.center-parent {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.svg {
+    position: relative;
+    display: inline-block;
+}
+
+a.svg:after {
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+}
+
+#our-mission {
     color: white;
     padding: 50px;
     background-color: var(--color2);
