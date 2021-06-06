@@ -87,8 +87,11 @@ h2 {
     text-align: center;
 }
 
+.our-team h1 {
+    margin: 100px;
+}
+
 .member-gallery {
-    margin-top: 100px;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center;
