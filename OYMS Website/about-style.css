@@ -10,6 +10,7 @@
     margin-top: 5%;
     display: flex;
     justify-content: center;
+    align-items: center;
     min-width: 50%
 }
 
@@ -17,18 +18,23 @@
     margin: 2%;
 }
 
-#navya-img {
-    width: 40vh;
-    height: auto;
+.left-align {
+    text-align: left;
 }
 
-h2 {
-    font-size: 2rem;
-}
 
 p {
     font-size: 1.3rem;
-    margin-top: 3%;
+    margin-top: 2%;
+}
+
+.msg-text {
+    padding-bottom: 20px;
+}
+
+#navya-img {
+    width: 40vh;
+    height: auto;
 }
 
 .center-parent {
@@ -51,10 +57,35 @@ a.svg:after {
     left: 0;
 }
 
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 #our-mission {
     color: white;
-    padding: 50px;
+    padding: 100px 350px 100px 350px;
     background-color: var(--color2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#our-mission p {
+    text-align: center;
 }
 
 .member-gallery {
