@@ -2,19 +2,20 @@
 
 .about-oyms {
     height: 90vh;
-    padding: 0 250px 0 250px;
+    padding: 0 10% 0 10%;
 }
 
 .pres-msg {
     margin: 0 auto;
-    margin-top: 65px;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
-    max-width: 50%
+    min-width: 50%
+    max-width: 70%
 }
 
 .pres-msg > * {
-    margin: 15px;
+    margin: 2%;
 }
 
 #navya-img {
@@ -28,7 +29,7 @@ h2 {
 
 p {
     font-size: 1.3rem;
-    margin-top: 15px;
+    margin-top: 3%;
 }
 
 .center-parent {
@@ -38,7 +39,6 @@ p {
 }
 
 a.svg {
-    margin-top: 7%;
     position: relative;
     display: inline-block;
 }
