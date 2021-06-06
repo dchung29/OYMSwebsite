@@ -293,7 +293,7 @@ body {
     color: black;
     padding: 50px;
     background-color: white;
-    height: 90vh;
+    height: 130vh;
 }
 
 #WhoAreWe .Who-Are-We-item{
@@ -304,7 +304,7 @@ body {
     margin: 5px;
 }
 
-.Who-Are-We{
+#WhoAreWe .Who-Are-We{
     color: black;
     padding: 50px; 
     background-color: white;
@@ -312,8 +312,44 @@ body {
 }
 
 
-
 /* Who are we section end */
+
+
+/* Exclusive opportunities*/
+#ExclusiveOpportunities .ExclusiveOpportunities-container{
+    color: white;
+    padding: 50px;
+    background-color: #02BABC;
+    height: 40vh;
+}
+
+#ExclusiveOpportunities .ExclusiveOpportunities-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Exclusive opportunities End*/
+
+/*Our Partners Section */
+#OurPartners .OurPartners-container{
+    color: black;
+    padding: 50px;
+    background-color: white;
+    height: 30vh;
+}
+
+#OurPartners .OurPartners-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+/*Our Partners Section end*/
+
+
 
 
 
