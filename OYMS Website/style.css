@@ -284,18 +284,34 @@ body {
     box-shadow: 0px 0px 18px 0 #0000002c;
 }
 
-
 /*Whats Happening section end*/
 
 
 
 /* Who are we section */
+#WhoAreWe .Who-Are-We-container{
+    color: black;
+    padding: 50px;
+    background-color: white;
+    height: 90vh;
+}
+
+#WhoAreWe .Who-Are-We-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    margin: 5px;
+}
+
 .Who-Are-We{
     color: black;
     padding: 50px; 
     background-color: white;
     height: 90vh;
 }
+
+
 
 /* Who are we section end */
 
