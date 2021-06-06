@@ -316,18 +316,46 @@ body {
 
 
 /* Exclusive opportunities*/
-#ExclusiveOpportunities .ExclusiveOpportunities-container{
+#ExclusiveOpportunities .ExclusiveOpportunities-container {
     color: white;
-    padding: 50px;
+    padding: 100px;
     background-color: #02BABC;
-    height: 40vh;
+    text-align: center;
 }
 
-#ExclusiveOpportunities .ExclusiveOpportunities-item{
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+#ExclusiveOpportunities .ExclusiveOpportunities-container h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
 
+#ExclusiveOpportunities .ExclusiveOpportunities-container p {
+    padding: 15px;
+}
+
+#ExclusiveOpportunities .newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+#ExclusiveOpportunities .newsletter > * {
+    margin: 5px;
+}
+#ExclusiveOpportunities .newsletter .input {
+    width: 100%;
+    max-width: 550px;
+    padding: 20px 100px 20px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#ExclusiveOpportunities .newsletter .button {
+    padding: 15px;
+    background: var(--color1);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 /* Exclusive opportunities End*/
@@ -387,31 +415,4 @@ h4{
     text-align: center;
 }
 
-.newsletter{
-    max-width:550px;
-    width: 100%;
-    position: relative; 
-    margin: 50px auto;
-}
 
-.newsletter .input{
-    width:100%;
-    padding:30px 100px 30px 60px;
-    border-radius: 5px;
-    border:none;
-    font-weight:bold;
-    font-size: 20px;
-}
-
-.newsletter .button{
-    position: absolute;
-    top:10%;
-    right: 100px;
-    transform: translateX(180%);
-    background: #F37E4B;
-    padding: 15px 20px;
-    border-radius:25px;
-    font-size: 25px;
-    color:#fff;
-    cursor: pointer;
-}
