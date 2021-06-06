@@ -294,7 +294,7 @@ body {
     color: black;
     padding: 50px;
     background-color: white;
-    height: 60vh;
+    height: 90vh;
 }
 
 #WhoAreWe .Who-Are-We-item{
@@ -302,6 +302,7 @@ body {
     padding: 20px;
     text-align: center;
     font-size: large;
+    margin: 5px;
 }
 
 .Who-Are-We{
