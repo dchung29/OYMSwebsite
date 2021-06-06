@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>OYMS Website - Home</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm (){
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/13616/',
+                type:'post',
+                data:$("#myForm").serializeArray(),
+                success: function(){
+                  alert("Thank you! Your Email has been stored!")
+                },
+                error: function(){
+                  alert("There was an error.")
+                }
+            });
+        }
+        </script>
 </head>
 
 <body>
@@ -109,9 +125,11 @@
             <h1>Get Exclusive Opportunities!</h1>
             <p>Subscribe to our newsletter to get exclusive event offers, career advice & more.</p>
             <div class="newsletter">
-                <input type="text" class="input" placeholder="Email">
-                <div class="button">Subscribe</div>
-            </div>
+            <form id="myForm">
+                <input name="Email" placeholder="Email"/>
+            </form>
+            <button onclick="SubForm()">Subscribe</button>
+        </div> 
         </div>
     </section>
 
