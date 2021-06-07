@@ -57,7 +57,41 @@
     font-size:14px;
 }
 
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
 
+.newsletter > * {
+    margin: 5px;
+}
+
+.newsletter input{
+    width: 100%;
+    max-width: 550px;
+    padding: 20px 100px 20px 25px;
+    border-radius: 5px;
+    border-style:dashed solid;
+    border-color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.newsletter button{
+    padding:15px;
+    background: var(--color1);
+    border-radius: 5px;
+    font-size:16px;
+    cursor: pointer;
+    color:white;
+    border: none;
+    font-weight: bold;
+}
+
+.newsletter button:hover{
+    color: white;
+    background-color: var(--color2);
+}
 
 @media (max-width:550px){
     .event {
