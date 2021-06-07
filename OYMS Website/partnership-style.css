@@ -18,6 +18,12 @@
     text-align: center;
 }
 
+.partnership-logo-container {
+    display: flex;
+    padding: 100px;
+}
+
+
 .column {
     margin: rem;
     width: 100%;
@@ -66,3 +72,5 @@
     color: white;
     background-color: var(--color2);
 }
+
+
