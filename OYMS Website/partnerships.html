@@ -51,18 +51,27 @@
 
     <h1 class='page-title' data-aos="fade-up">Partnerships</h1>
     <div class="rectangle"></div>
-    <div class="contact" data-aos="fade-up" data-aos-duration="1000">
-        <form id="myForm2">
-            <input name="Email" placeholder="Email" class="inputs" />
-            <input name="Name" placeholder="Name" class="inputs"/>
-            <input name="Phone" placeholder="Phone" class="inputs"/>
-            <textarea name="Message" placeholder="Message" class="inputsMessage"></textarea>
-            
-        </form>
-    
-        <button onclick="SubForm()">Send Message</button>
-    </div>
 
+    <div class="form-container" data-aos="fade-up" data-aos-duration="1000">
+
+        <div class='input-container'>
+            <form id="myForm2">
+                <div class="column">
+                    <input name="Email" placeholder="Email" class="inputs" />
+                    <input name="Name" placeholder="Name" class="inputs"/>
+                    <input name="Phone" placeholder="Phone" class="inputs"/>
+                </div>
+                <div class="column">
+                    <textarea name="Message" placeholder="Message" class="inputsMessage"></textarea>
+                </div>
+            </form>
+        </div>
+        
+        <div class="button-container">
+            <button class=inputsBtn onclick="SubForm()">Send Message</button>
+        </div>
+
+    </div>
     
     <footer class = footer>
         <div> 
