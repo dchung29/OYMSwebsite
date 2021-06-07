@@ -88,6 +88,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
 
 .cta {
     display: inline-block;
@@ -128,13 +136,6 @@
     background-color: var(--color2);
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-}
 
 #header .wrapper {
     width: 1200px;
