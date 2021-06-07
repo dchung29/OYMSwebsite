@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 .about-oyms {
-    height: 90vh;
-    padding: 0 10% 0 10%;
+    height: 95vh;
+    padding: 0 20%;
+    overflow: auto;
 }
 
 .pres-msg {
@@ -42,9 +43,9 @@ p {
 }
 
 a.svg {
-    margin-top: 50px;
     position: relative;
-    display: inline-block;
+    display: block;
+    top: 4rem;
 }
 
 a.svg:after {
@@ -74,7 +75,7 @@ a.svg:after {
 
 #our-mission {
     color: white;
-    padding: 100px 400px 100px 400px;
+    padding: 5rem 20rem 5rem 20rem;
     background-color: var(--color2);
 }
 
@@ -88,20 +89,100 @@ h2 {
 }
 
 .our-team h1 {
-    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    padding: 2rem;
+    /* background-color: aqua;
+    text-align: center;
+    margin: 100px 0; */
 }
 
 .member-gallery {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap; 
-    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
 }
 
-.member-pic {
-    margin: 25px;
+.member-gallery img {
+    width: 100%;
+    height: auto;
 }
 
-.thumbnail {
-    width:300px;
-    height:auto;
+/* VIP section (President and Vice President) */
+.member-gallery .vip-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.member-gallery .vip-pics .vip-card {
+    text-align: center;
+    font-size: 1.4rem; /* general font-size */
+}
+
+.member-gallery .vip-pics .vip-card figcaption {
+    margin-top: 0.6rem;
+}
+
+.member-gallery .vip-pics .vip-card span {
+    font-weight: bold;
+    font-size: 1.7rem; /* name font-size */
+}
+
+/* End of VIP section */
+
+
+/* Other members section */
+.member-gallery .member-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem 1.4rem;
+}
+
+.member-gallery .member-pics .member-card {
+    text-align: center;
+    font-size: 1.2rem; /* general font-size */
+}
+
+.member-gallery .member-pics .member-card figcaption {
+    margin-top: 0.4rem;
+}
+
+.member-gallery .member-pics .member-card span {
+    font-weight: bold;
+    font-size: 1.4rem; /* name font-size */
+}
+
+/* End of other members section */
+
+
+@media(max-width: 700px) {
+    .member-gallery .vip-pics {
+        margin: 0 2rem;
+        display: block;
+    }
+
+    .member-gallery .member-pics {
+        margin: 0 2rem;
+        display: block;
+    }
+
+    .member-gallery .vip-pics .vip-card {
+        margin-bottom: 3rem;
+    }
+
+    .member-gallery .member-pics .member-card {
+        margin-bottom: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .member-gallery .member-pics .member-card span {
+        font-weight: bold;
+        font-size: 1.7rem; /* name font-size */
+    }
 }
