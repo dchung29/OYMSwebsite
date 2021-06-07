@@ -61,14 +61,15 @@ footer {
 
 .newsfeed, .feed{
     
-    width: 1900px;
-    height: 720px;
+   
     margin: 0 auto;
     background-color: white;
 }
 
-.feed{
-    
-    display:block;
-    border-style:none;
+
+.taggbox-container{
+    margin: 0 auto;
+    width:70%;
+    height:100%;
+    overflow: auto;
 }
