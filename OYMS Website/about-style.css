@@ -2,16 +2,19 @@
 
 .about-oyms {
     height: 95vh;
-    padding: 0 20%;
-    overflow: auto;
+    padding: 0 15%;
+}
+
+.about-oyms .page-title {
+    font-size: clamp(1.2rem, 1.2rem + 3vw, 3.5rem);
 }
 
 .pres-msg {
+    /* background-color: tomato; */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 50%
 }
 
 .pres-msg > * {
@@ -23,7 +26,7 @@
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 2%;
 }
 
@@ -32,7 +35,8 @@ p {
 }
 
 #navya-img {
-    width: 40vh;
+    width: 25vw;
+    min-width: 400px;
     height: auto;
 }
 
@@ -161,13 +165,14 @@ h2 {
 /* End of other members section */
 
 
-@media(max-width: 700px) {
-    .member-gallery .vip-pics {
-        margin: 0 2rem;
-        display: block;
+@media(max-width: 1840px) {
+    .pres-msg {
+        flex-direction: column;
     }
+}
 
-    .member-gallery .member-pics {
+@media(max-width: 1000px) {
+    .member-gallery .vip-pics, .member-gallery .member-pics {
         margin: 0 2rem;
         display: block;
     }
