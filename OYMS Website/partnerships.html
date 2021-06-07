@@ -7,9 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="partnership-style.css">
     <link rel="stylesheet" href="blog-style.css">
+    <link rel="shortcut icon" href="img/oymsLOGO.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <title>OYMS - Partnership</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm (){
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/13669/',
+                type:'post',
+                data:$("#myForm2").serializeArray(),
+                success: function(){
+                  alert("Your message has been sent!")
+                },
+                error: function(){
+                  alert("There was an error.")
+                }
+            });
+        }
+        </script>
 
-
-    <title>Partnership</title>
 </head>
 <body>
     <section id="header">
@@ -31,7 +49,19 @@
         </div>
     </section>
 
-
+    <h1 class='page-title' data-aos="fade-up">Partnerships</h1>
+    <div class="rectangle"></div>
+    <div class="contact" data-aos="fade-up" data-aos-duration="1000">
+        <form id="myForm2">
+            <input name="Email" placeholder="Email" class="inputs" />
+            <input name="Name" placeholder="Name" class="inputs"/>
+            <input name="Phone" placeholder="Phone" class="inputs"/>
+            <textarea name="Message" placeholder="Message" class="inputsMessage"></textarea>
+            
+        </form>
+    
+        <button onclick="SubForm()">Send Message</button>
+    </div>
 
     
     <footer class = footer>
@@ -66,5 +96,9 @@
             </p>   
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
