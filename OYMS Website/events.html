@@ -12,6 +12,23 @@
 
 
     <title>OYMS Website - Events</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm() {
+            $.ajax({
+                url: 'https://api.apispreadsheets.com/data/13616/',
+                type: 'post',
+                data: $("#myForm").serializeArray(),
+                success: function () {
+                    alert("Thank you for signing up!")
+                },
+                error: function () {
+                    alert("There was an error.")
+                }
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -97,7 +114,7 @@
             </div>
         </div>
 
-        <h3 class="year">Future Events</h3>
+        <h3 class="year" data-aos="fade-up" data-aos-duration="1000">Future Events</h3>
 
         <div class="event" data-aos="fade-up" data-aos-duration="1000">
             <div class="event-left">
@@ -120,7 +137,16 @@
         </br>
     </div>
 
+    </br>
 
+    <h1 data-aos="fade-up" data-aos-duration="1000">Sign Up Below For Future Events!</h1>
+    </br>
+    <div class="newsletter" data-aos="fade-up" data-aos-duration="1000">
+        <form id="myForm">
+            <input name="Email" placeholder="Email" />
+        </form>
+        <button onclick="SubForm()">Subscribe</button>
+    </div>
 
 
     <footer class=footer>
