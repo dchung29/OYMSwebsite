@@ -1,6 +1,7 @@
 .event-container{
     max-width:800px;
     margin: 0 auto;
+    
 }
 
 .event-container h3.year{
@@ -14,6 +15,7 @@
     display: flex;
     border-radius: 8px;
     margin: 32px 0;
+    background-color: #FFF9F0;
 }
 
 .event .event-left {
