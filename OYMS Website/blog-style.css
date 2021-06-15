@@ -66,18 +66,31 @@ footer {
     font-size: 40px;
 }
 
-.newsfeed, .feed{
+.posts{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border-width: 10px;
+    justify-content: center;
     
-   
-    margin: 0 auto;
-    background-color: white;
+    
+    
 }
 
-
-.taggbox-container{
-    margin: 0 auto;
-    width:70%;
-    height:100%;
-    overflow: auto;
+.post1{
+    margin: 50px;
+    
+    text-align: center;
+    width: 40%;
+    background-color: #fdeed5;
+    border-radius: 25px;
+    padding: 30px;
+    
 }
 
+.post1 img{
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 25px;
+    width: 100%;
+}
