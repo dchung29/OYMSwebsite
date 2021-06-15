@@ -38,19 +38,31 @@ footer {
 }
 
 .whitelink{
-    color: #1d3d96;
+    color:var(--color2) ;
     background-color: transparent;
     text-decoration: none;
     font-weight: bold;
 }
 
 .whitelink:hover{
+    color: #fdeed5;
+    text-decoration: none;
+}
+
+.whitelinkfirst{
+    color: white ;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.whitelinkfirst:hover{
     color: white;
     text-decoration: none;
-
 }
+
 .updatemessage{
-    box-shadow:  20px 20px 50px grey;
+    box-shadow:  5px 5px 20px rgb(180, 180, 180);
     background-color:var(--color2);
     background-position: center;
     border-radius: 25px;
@@ -76,7 +88,7 @@ footer {
 
 .post1{
     margin: 50px;
-    
+    box-shadow:  5px 5px 20px rgb(180, 180, 180);
     text-align: center;
     width: 40%;
     background-color: #fdeed5;
@@ -91,13 +103,25 @@ footer {
     width: 100%;
 }
 
-.readmore{
+.readmorelink{
     margin: 0 auto;
-    border-width: 5px;
-    border-radius: 25px;
-    border-style: solid;
+    color: white;
     width: 10%;
-    border-color: #fdeed5;
+    padding: 15px;
+    background-color: var(--color1);
+    border-radius: 25px;
     text-align: center;
     margin-top: 50px;
+}
+
+.readlink{
+    color:white ;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.readlink:hover{
+    color: #fdeed5;
+    text-decoration: none;
 }
