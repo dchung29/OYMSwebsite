@@ -1,1 +1,0 @@
-// Once you make all the posts manually then you can do this //

@@ -122,6 +122,11 @@ footer {
 }
 
 .readlink:hover{
-    color: #fdeed5;
+    color: white;
     text-decoration: none;
+    
+}
+
+.readmorelink:hover{
+    background-color: var(--color2);
 }
