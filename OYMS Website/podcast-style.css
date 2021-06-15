@@ -1,7 +1,7 @@
 
-img{
+.img{
   width: 100%
-  display: block;
+  
 }
 
 .container {
@@ -31,15 +31,15 @@ img{
 
 .podcast-btns{
   display: flex;
-  justify-content: center
-  margin-top; 1.4rem;
+  justify-content: center;
+  margin-top: 1.4rem;
   opacity: 1;
   transition: opacity 0.6s ease;
 }
 
 .spotify-button, .apple-button{
   background: transparent;
-  border; 1px solid black;
+  border: 1px solid black;
   padding: 0.8rem 0;
   width: 125px;
   font-family: inherit;
@@ -48,3 +48,5 @@ img{
   border: none;
   transition: all 0.6s ease;
 }
+
+
