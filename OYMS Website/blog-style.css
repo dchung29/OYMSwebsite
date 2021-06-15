@@ -119,14 +119,17 @@ footer {
     background-color: transparent;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .readlink:hover{
     color: white;
     text-decoration: none;
+    font-size: 20px;
     
 }
 
 .readmorelink:hover{
     background-color: var(--color2);
+    font-size: 20px;
 }
