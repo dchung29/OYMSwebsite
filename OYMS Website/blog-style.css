@@ -38,9 +38,16 @@ footer {
 }
 
 .whitelink{
-    color: black;
+    color: #1d3d96;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whitelink:hover{
+    color: white;
+    text-decoration: none;
+
 }
 .updatemessage{
     box-shadow:  20px 20px 50px grey;
