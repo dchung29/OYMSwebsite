@@ -5,7 +5,7 @@ html{
 }
 body{
     min-height: 400px;
-    margin-bottom: 400px;
+    margin-bottom: 500px;
     clear: both;
 }
 
@@ -45,8 +45,8 @@ footer {
 }
 
 .whitelink:hover{
-    color: #fdeed5;
-    text-decoration: none;
+    color: var(--color2);
+    text-decoration: underline;
 }
 
 .whitelinkfirst{
