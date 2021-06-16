@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="blog-style.css">
 
     <title>OYMS - Podcast</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm (){
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/14072/',
+                type:'post',
+                data:$("#myForm3").serializeArray(),
+                success: function(){
+                  alert("Thank you for your input!")
+                },
+                error: function(){
+                  alert("There was an error.")
+                }
+            });
+        }
+        </script>
 
 </head>
 
@@ -107,14 +123,12 @@
       </div>
 
       <div class="form-container">
-          <p>Would you like to participate in OYMS Unfiltered? Send us a message!</p>
+          <p>Drop your ideas</p>
       </br>
           <div class='input-container'>
               <form id="myForm3">
                   <div class="column">
-                      <input name="Email" placeholder="Email" class="inputs" />
                       <input name="Name" placeholder="Name" class="inputs"/>
-                      <input name="Phone" placeholder="Phone" class="inputs"/>
                   </div>
                   <div class="column">
                       <textarea name="Message" placeholder="Message" class="inputsMessage"></textarea>
