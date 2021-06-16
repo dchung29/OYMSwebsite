@@ -29,6 +29,7 @@
 
 .headersection{
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 .column {
@@ -41,7 +42,7 @@
     display: inline-block;
     margin: 8px 0;
     padding: 20px 100px 20px 25px;
-    border-radius: 5px; 
+    border-radius: 5px;
     border-style: solid;
     border-color: black;
     font-weight: bold;
@@ -57,9 +58,8 @@
     font-family: 'Poppins';
     font-weight: bold;
     border:none;
-    border-radius: 5px;    
+    border-radius: 5px;
     margin: 8px 0;
-
 }
 
 .inputsBtn {
@@ -79,5 +79,3 @@
     color: white;
     background-color: #02BABC;
 }
-
-

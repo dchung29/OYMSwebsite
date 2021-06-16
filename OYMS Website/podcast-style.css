@@ -86,5 +86,17 @@
   margin-bottom: 20px;
   color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
 
+.form-container{
+  display: block;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.input-container {
+    display: flex;
+    padding: 50px;
+    background-color: #02BABC;
+    text-align: center;
 }
