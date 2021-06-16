@@ -271,18 +271,22 @@ body {
     display: flex;
 }
 
+
 #WhatsHappening .WH-item{
     width: 100%;
-    padding: 20px;
     text-align: center;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-shadow: 0px 0px 18px 0 #0000002c;
+}
+
+#WhatsHappening .WH-item-p{
+    margin: 15px;
 }
 
 /*Whats Happening section end*/
