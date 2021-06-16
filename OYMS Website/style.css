@@ -434,7 +434,7 @@ h4{
 
 /* splash screen */
 
-/* .intro{
+.intro{
     position: fixed;
     z-index: 1;
     left: 0;
@@ -474,4 +474,4 @@ h4{
     opacity: 0;
     transition: ease-in-out 0.5s;
 
-} */
+}
