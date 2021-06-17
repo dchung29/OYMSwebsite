@@ -18,6 +18,7 @@
     padding: 50px;
     background-color: #02BABC;
     text-align: center;
+    border-radius: 8px;
 }
 
 .partnership-logo-container {
@@ -53,17 +54,17 @@
 .inputsMessage {
     width: 100%;
     height: 100%;
-    padding: 10px 100px 100px 10px;
-    font-size: 15px;
+    padding: 20px 100px 100px 25px;
     font-family: 'Poppins';
     font-weight: bold;
     border:none;
+    font-size: 15px;
     border-radius: 5px;
     margin: 8px 0;
 }
 
 .inputsBtn {
-    padding: 2rem 4rem;
+    padding: 1.5rem 2rem;
     border-radius: 5px;
     border: none;
     background-color: var(--color1);
