@@ -1,52 +1,73 @@
 
-.img{
-  width: 100%
-  
+.podcast-container {
+  padding: 0 25%;
+  margin: 0 auto;
 }
 
-.container {
-  background: gray;
-  padding: 3.2rem 0;
-  width: 88vw;
+.container-message{
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid #b1b1b1;
+  margin-left: 20vh;
+  margin-right: 20vh;
+  color: var(--color1);
+}
+
+.podcast-intro{
+  box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 8px;
+  margin: 32px 0;
+  background-color: #FFF9F0;
+  text-align: center;
+  /* margin-left: 20vh;
+  margin-right: 20vh; */
+  padding: 30px 37px 20px 37px;
+}
+
+.special-text{
+  color: var(--color1);
+  font-weight: bold;
+}
+
+.iconbar {
+  line-height: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 300px;
+  background-color: #e4c8b8;
 }
 
 /* Podcast Section */
 .podcast{
-  margin: 2rem;
-  position: relative;
+  box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 8px;
+  margin: 50px 0;
+  background-color: #FFF9F0;
+  text-align: center;
+/*   margin-left: 20vh;
+  margin-right: 20vh; */
+  padding: 20px 37px;
+  /* padding-left: 37px;
+  padding-right: 37px; */
 }
 
-.podcast-content{
-  background: rgb(237, 237, 237);
-  padding: 3rem 0.5rem 2rem 0.5rem;
+.date{
+  font-size: 20px;
+  color: var(--color1);
+  font-weight: bold;
 }
 
-.podcast-img{
-  box-shadow: 0 0 20px 10px rgb(241, 213, 213);
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
+.podcast-info{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
 }
 
-.podcast-btns{
-  display: flex;
-  justify-content: center;
-  margin-top: 1.4rem;
-  opacity: 1;
-  transition: opacity 0.6s ease;
+.form-title{
+  color: var(--color1);
 }
-
-.spotify-button, .apple-button{
-  background: transparent;
-  border: 1px solid black;
-  padding: 0.8rem 0;
-  width: 125px;
-  font-family: inherit;
-  text-transform: uppercase;
-  cursor: pointer;
-  border: none;
-  transition: all 0.6s ease;
-}
-
-
