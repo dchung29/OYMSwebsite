@@ -27,6 +27,11 @@ footer {
     font-size: 16px;
     padding: 45px 200px;   
 }
+
+footer p {
+    font-size: 1rem;
+}
+
 .social-logos {
     padding: 75px 200px;
     float: right;
