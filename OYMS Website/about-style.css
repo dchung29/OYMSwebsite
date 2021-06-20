@@ -203,7 +203,7 @@ h2 {
 }
 
 @media(max-width: 1000px) {
-    .member-gallery .vip-pics, .member-gallery .member-pics {
+    .member-gallery .vip-pics, .member-gallery .member-pics, .member-gallery .gen-pics {
         margin: 0 2rem;
         display: block;
     }
@@ -212,12 +212,12 @@ h2 {
         margin-bottom: 3rem;
     }
 
-    .member-gallery .member-pics .member-card {
+    .member-gallery .member-pics .member-card, .member-gallery .gen-pics .gen-card {
         margin-bottom: 3rem;
         font-size: 1.4rem;
     }
 
-    .member-gallery .member-pics .member-card span {
+    .member-gallery .member-pics .member-card span, .member-gallery .gen-pics .gen-card span {
         font-weight: bold;
         font-size: 1.7rem; /* name font-size */
     }
