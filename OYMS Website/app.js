@@ -17,7 +17,7 @@
                     span.classList.add('fade');
                 }, (idx+1) * 50)
            })
-        }, 2000);
+        }, 1650);
 
         setTimeout(()=>{
             intro.style.top = '-100vh';
