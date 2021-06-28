@@ -125,6 +125,7 @@ body {
     outline: none;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 10px;
 }
 
 .cta1:hover {
@@ -212,6 +213,9 @@ body {
     line-height: 10px;
 }
 
+
+
+
 /* Hero Section */
 #hero .hero-container {
     background-color: white;
@@ -260,7 +264,7 @@ body {
     color: black;
     padding: 50px;
     background-color: var(--color2);
-    height: 80vh;   /*make height bigger*/
+    height: 100vh;   /*make height bigger*/
 }
 
 #WhatsHappening #WhatsHappening{
@@ -283,6 +287,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
+    background-color: #fdeed5;
 }
 
 #WhatsHappening .WH-item-p{
@@ -296,9 +302,9 @@ body {
 /* Who are we section */
 #WhoAreWe .Who-Are-We-container{
     color: black;
-    padding: 50px;
     background-color: white;
-    height: 130vh;
+    height: 140vh;
+    padding-top: 80px;
 }
 
 #WhoAreWe .Who-Are-We-item{
@@ -379,14 +385,25 @@ body {
     color: black;
     padding: 50px;
     background-color: white;
+    height: 50vh;
+    padding-top: 60px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 #OurPartners .OurPartners-item{
-    width: 100%;
-    padding: 20px;
     text-align: center;
     display: flex;
+
 }
+
+#logo1{
+    float: left;
+}
+#logo2{
+    float: right;
+}
+
 
 /*Our Partners Section end*/
 
@@ -414,6 +431,27 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
+
+h6 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 42px;
+    padding-bottom: 35px;
+    padding-top: 30px;
+}
+
+h7 {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+p {
+    font-weight: 300;
+    padding-bottom: 17px;
+}
+
 
 .logo{
     cursor:pointer;
