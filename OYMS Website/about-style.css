@@ -26,7 +26,7 @@
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .msg-text {
@@ -34,7 +34,7 @@ p {
 }
 
 #navya-img {
-    width: 25vw;
+    width: 23vw;
     min-width: 400px;
     height: auto;
 }
@@ -56,7 +56,7 @@ h2 {
 }
 
 .our-team h2 {
-    margin: 15rem 0 2rem;
+    margin: 7rem 0 2rem;
     padding: 2rem;
     /* background-color: aqua;
     text-align: center;
