@@ -103,6 +103,7 @@ body {
     color: white;
     background-color: var(--color1);
     font-size: 2rem;
+    font-weight: bold;
     letter-spacing: .1rem;
     margin-top: 30px;
     transition-property: background-color, var(--color1);
@@ -112,7 +113,7 @@ body {
 
 .cta1 {
     width: 300px;
-    height: 40px;
+    height: 50px;
     border: none;
     color: #02BABC;
     background-color: white;
@@ -123,6 +124,7 @@ body {
     font-size: 1.5rem;
     outline: none;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .cta1:hover {
@@ -258,7 +260,7 @@ body {
     color: black;
     padding: 50px;
     background-color: var(--color2);
-    height: 80vh;   
+    height: 80vh;   /*make height bigger*/
 }
 
 #WhatsHappening #WhatsHappening{
@@ -271,7 +273,6 @@ body {
     display: flex;
 }
 
-
 #WhatsHappening .WH-item{
     width: 100%;
     text-align: center;
@@ -282,7 +283,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002c;
 }
 
 #WhatsHappening .WH-item-p{
