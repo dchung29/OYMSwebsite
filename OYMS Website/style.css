@@ -263,7 +263,7 @@ body {
 #WhatsHappening .WhatsHappening-container{
     color: black;
     padding: 50px;
-    background-color: var(--color2);
+    background-color: #00aab7;
     height: 100vh;   /*make height bigger*/
 }
 
@@ -288,7 +288,7 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
-    background-color: #fdeed5;
+    background-color: #f9e3be;
 }
 
 #WhatsHappening .WH-item-p{
@@ -438,6 +438,7 @@ h6 {
     font-size: 42px;
     padding-bottom: 35px;
     padding-top: 30px;
+    color: #003d60;
 }
 
 h7 {
@@ -445,6 +446,7 @@ h7 {
     text-align: center;
     padding-top: 20px;
     font-size: x-large;
+    color: #003d60;
 }
 
 p {
