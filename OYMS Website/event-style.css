@@ -73,7 +73,7 @@
     max-width: 550px;
     padding: 20px 100px 20px 25px;
     border-radius: 5px;
-    border-style:dashed solid;
+    border-style:solid;
     border-color: black;
     font-weight: bold;
     font-size: 15px;
@@ -81,9 +81,11 @@
 
 .newsletter button{
     padding:15px;
+    font-family: var(--font1);
+    
     background: var(--color1);
     border-radius: 5px;
-    font-size:16px;
+    font-size:20px;
     cursor: pointer;
     color:white;
     border: none;
