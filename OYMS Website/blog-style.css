@@ -25,7 +25,7 @@ footer {
     background-color:var(--color1);
     color: white;
     font-size: 16px;
-    padding: 45px 200px;   
+    padding: 35px 100px;   
 }
 
 footer p {
@@ -33,13 +33,37 @@ footer p {
 }
 
 .social-logos {
-    padding: 75px 200px;
+    padding: 75px 10px;
     float: right;
+    
 }
+
+img{
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+.social-logos > a{
+    text-decoration: none;
+
+}
+
+.footerlogo{
+    float: left;
+    
+}
+
+.footertext{
+    padding-top: 70px;
+    vertical-align: middle;
+}
+
+
 
 .blogtitle{
     padding: 45px 200px;
     font-size: 50px;
+
 }
 
 .whitelink{
@@ -66,6 +90,9 @@ footer p {
     text-decoration: none;
 }
 
+.page-title{
+    padding-bottom: 50px;
+}
 .updatemessage{
     box-shadow:  5px 5px 20px rgb(180, 180, 180);
     background-color:var(--color2);
@@ -116,7 +143,7 @@ footer p {
     background-color: var(--color1);
     border-radius: 25px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .readlink{
