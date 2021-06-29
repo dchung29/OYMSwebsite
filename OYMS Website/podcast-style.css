@@ -30,6 +30,10 @@
   font-weight: bold;
 }
 
+.youtube-embedded{
+  width: 100%;
+}
+
 .iconbar {
   line-height: 0;
   display: flex;
