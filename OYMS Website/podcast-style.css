@@ -10,7 +10,8 @@
   border-bottom: 1px solid #b1b1b1;
   margin-left: 20vh;
   margin-right: 20vh;
-  color: var(--color1);
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 .podcast-intro{
@@ -68,6 +69,10 @@
   color: black;
 }
 
+.headersection-title{
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
 .form-title{
-  color: var(--color1);
 }
