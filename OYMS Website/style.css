@@ -244,15 +244,16 @@ body {
     position: relative;
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 75px;
 }
 
 #hero p{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 42px;
     color: darkgrey;
     width: 800px;
+
 }
 /* End of Hero Section*/
 
@@ -264,7 +265,7 @@ body {
     color: black;
     padding: 50px;
     background-color: #2FBEBE;
-    height: 100vh;   /*make height bigger*/
+    height: 110vh;   /*make height bigger*/
 }
 
 #WhatsHappening #WhatsHappening{
@@ -303,7 +304,7 @@ body {
 #WhoAreWe .Who-Are-We-container{
     color: black;
     background-color: white;
-    height: 140vh;
+    height: 150vh;
     padding-top: 80px;
 }
 
@@ -385,7 +386,7 @@ body {
     color: black;
     padding: 50px;
     background-color: white;
-    height: 55vh;
+    height: 60vh;
     padding-top: 60px;
     padding-left: 500px;
     padding-right: 500px;
@@ -439,10 +440,11 @@ h3{
 h6 {
     font-weight: 700;
     text-align: center;
-    font-size: 42px;
+    font-size: 65px;
     padding-bottom: 35px;
     padding-top: 30px;
     color: black;
+    letter-spacing: 3px;
 }
 
 h5 {
