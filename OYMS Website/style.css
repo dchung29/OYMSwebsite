@@ -263,7 +263,7 @@ body {
 #WhatsHappening .WhatsHappening-container{
     color: black;
     padding: 50px;
-    background-color: #00aab7;
+    background-color: #2FBEBE;
     height: 100vh;   /*make height bigger*/
 }
 
@@ -288,7 +288,7 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
-    background-color: #f9e3be;
+    background-color: #F5CB8C;
 }
 
 #WhatsHappening .WH-item-p{
@@ -391,11 +391,7 @@ body {
     padding-right: 500px;
 }
 
-#OurPartners .OurPartners-item{
-    text-align: center;
-    display: flex;
 
-}
 
 #logo1{
     float: left;
@@ -432,13 +428,29 @@ h1 {
     text-align: center;
 }
 
+h4{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
 h6 {
     font-weight: 700;
     text-align: center;
     font-size: 42px;
     padding-bottom: 35px;
     padding-top: 30px;
-    color: #003d60;
+    color: black;
+}
+
+h5 {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+    color: black;
 }
 
 h7 {
@@ -446,13 +458,16 @@ h7 {
     text-align: center;
     padding-top: 20px;
     font-size: x-large;
-    color: #003d60;
+    color: black;
 }
 
 p {
     font-weight: 300;
-    padding-bottom: 17px;
+    padding-bottom: 9px;
+    padding-top: 9px;
 }
+
+
 
 
 .logo{
@@ -461,13 +476,7 @@ p {
      
 }
 
-h4{
-    text-align: center;
-}
 
-h3{
-    text-align: center;
-}
 
 .center {
     display:block;
