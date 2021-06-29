@@ -288,7 +288,7 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
-    background-color: #F5F4DC;
+    background-color: #F5CB8C;
 }
 
 #WhatsHappening .WH-item-p{
@@ -385,7 +385,7 @@ body {
     color: black;
     padding: 50px;
     background-color: white;
-    height: 50vh;
+    height: 55vh;
     padding-top: 60px;
     padding-left: 500px;
     padding-right: 500px;
