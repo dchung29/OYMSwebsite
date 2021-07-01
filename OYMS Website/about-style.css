@@ -22,7 +22,7 @@
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .msg-text {
@@ -43,8 +43,13 @@ p {
 
 h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
 
