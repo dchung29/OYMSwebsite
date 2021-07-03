@@ -115,6 +115,13 @@
     font-weight: normal;
 }
 
+.signuplink:hover{
+    color: var(--color2);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
 @media (max-width:550px){
     .event {
         flex-direction: column; 
