@@ -20,16 +20,18 @@
 
 .event .event-left {
     background: #F37E4B;
-    min-width: 82px;
+    min-width: 100px;
+    max-width: 100px;
     display:flex;
     align-items: center;
     justify-content: center;
     color: #eee;
-    padding:8px 45px;
+    padding:8px 90px;
     font-weight: bold;
     text-align: center;
     border-radius: 8px 0 0 8px;
 }
+
 
 .event .event-left .date {
     font-size:56px;
