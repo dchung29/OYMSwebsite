@@ -80,23 +80,28 @@ h3 {
 /* VIP section (President and Vice President) */
 .member-gallery .vip-pics {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 2rem; */
+    grid-gap: 1.4rem;
     margin-bottom: 5rem;
 }
 
 .member-gallery .vip-pics .vip-card {
     text-align: center;
-    font-size: 1.4rem; /* general font-size */
+    /* font-size: 1.4rem; */
+    font-size: 1.2rem;
 }
 
 .member-gallery .vip-pics .vip-card figcaption {
-    margin-top: 0.6rem;
+    /* margin-top: 0.6rem; */
+    margin-top: 0.4rem;
 }
 
 .member-gallery .vip-pics .vip-card span {
     font-weight: bold;
-    font-size: 1.7rem; /* name font-size */
+    /* font-size: 1.7rem; */
+    font-size: 1.4rem;
 }
 
 /* End of VIP section */
@@ -112,7 +117,7 @@ h3 {
 
 .member-gallery .member-pics .member-card {
     text-align: center;
-    font-size: 1.2rem; /* general font-size */
+    font-size: 1.2rem;
 }
 
 .member-gallery .member-pics .member-card figcaption {
