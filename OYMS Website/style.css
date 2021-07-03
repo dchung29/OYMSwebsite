@@ -265,7 +265,7 @@ body {
     color: black;
     padding: 50px;
     background-color: #2FBEBE;
-    height: 110vh;   /*make height bigger*/
+    height: 130vh;   /*make height bigger*/
 }
 
 #WhatsHappening #WhatsHappening{
@@ -468,6 +468,17 @@ h8 {
     text-align: center;
     color: white;
     font-weight: 700;
+}
+
+h9 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    color: white;
+    letter-spacing: 3px;
+    padding-left: 500px;
 }
 
 
