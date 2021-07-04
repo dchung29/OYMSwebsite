@@ -219,12 +219,11 @@ body {
 /* Hero Section */
 #hero .hero-container {
     background-color: white;
-    background-size: contain;
-    height: calc(91vh);
+    height: 91vh;
     display: flex;
     align-items: center;
-
 }
+
 #hero {
     max-width: 1200px;
     margin: 0 auto;
@@ -246,6 +245,7 @@ body {
     font-weight: 700;
     font-size: 5rem;
     line-height: 75px;
+
 }
 
 #hero p{
@@ -255,6 +255,7 @@ body {
     width: 800px;
 
 }
+
 /* End of Hero Section*/
 
 
@@ -265,7 +266,7 @@ body {
     color: black;
     padding: 50px;
     background-color: #2FBEBE;
-    height: 130vh;   /*make height bigger*/
+    height: 120vh;   /*make height bigger*/
 }
 
 #WhatsHappening #WhatsHappening{
@@ -304,16 +305,29 @@ body {
 #WhoAreWe .Who-Are-We-container{
     color: black;
     background-color: white;
-    height: 150vh;
+    height: 170vh;
     padding-top: 80px;
 }
 
 #WhoAreWe .Who-Are-We-item{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: large;
     margin: 5px;
+}
+
+#WhoAreWe .Who-Are-We-text{
+    box-shadow:  5px 5px 20px rgb(180, 180, 180);
+    background-color:var(--color2);
+    background-position: center;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 25px 250px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
 }
 
 #WhoAreWe .Who-Are-We{
@@ -488,7 +502,6 @@ p {
     padding-top: 9px;
     font-size: 20px;
 }
-
 
 
 
