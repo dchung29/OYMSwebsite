@@ -7,7 +7,7 @@
 .container-message{
   font-size: 30px;
   text-align: center;
-  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 3px solid var(--color1);
   margin-left: 20vh;
   margin-right: 20vh;
   margin-top: 10vh;
@@ -78,5 +78,3 @@
   margin-top: 5vh;
   margin-bottom: 2vh;
 }
-
-
