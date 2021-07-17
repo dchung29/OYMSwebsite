@@ -318,7 +318,7 @@ body {
 
 #WhoAreWe .Who-Are-We-text{
     box-shadow:  5px 5px 20px rgb(180, 180, 180);
-    background-color:var(--color2);
+    background-color:#FFF9F0;
     background-position: center;
     border-radius: 25px;
     padding: 50px;
@@ -326,7 +326,7 @@ body {
     margin-bottom: 100px;
     text-align: center;
     font-size: 20px;
-    color: white;
+    color: black;
 
 }
 
