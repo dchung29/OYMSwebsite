@@ -137,7 +137,8 @@ h3 {
     margin-top: 1rem;
     width: 50rem;
     height: 2px;
-    background: #b1b1b1;
+    /* background: #b1b1b1; */
+    border-bottom: 3px solid var(--color1);
 }
 
 /* General members section */
