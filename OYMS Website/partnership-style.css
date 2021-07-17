@@ -21,6 +21,9 @@
     border-radius: 8px;
 }
 
+.header-message {
+    border-bottom: 3px solid var(--color1);
+}
 
 .partnership-logo-container {
     color: black;

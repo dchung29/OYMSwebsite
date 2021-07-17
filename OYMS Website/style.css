@@ -266,24 +266,28 @@ body {
     color: black;
     padding: 50px;
     background-color: #2FBEBE;
-    height: 130vh;   /*make height bigger*/
+    height: 135vh;   /*make height bigger*/
+    
 }
 
 #WhatsHappening #WhatsHappening{
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 #WhatsHappening .WH-items{
     width: 100%;
     display: flex;
+    padding-top: 40px;
+    
 }
 
 #WhatsHappening .WH-item{
     width: 100%;
     text-align: center;
     border-radius: 20px;
-    padding: 50px;
+    padding: 40px;
     margin: 40px;
     display: flex;
     justify-content: center;
@@ -327,6 +331,7 @@ body {
     text-align: center;
     font-size: 20px;
     color: black;
+    
 
 }
 
@@ -335,6 +340,7 @@ body {
     padding: 50px; 
     background-color: white;
     height: 90vh;
+    
 }
 
 
