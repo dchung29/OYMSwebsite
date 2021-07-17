@@ -7,7 +7,7 @@
 .event-container h3.year{
     font-size: 30px;
     text-align: center;
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 3px solid var(--color1);
 }
 
 .event-container .event{
