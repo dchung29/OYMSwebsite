@@ -224,6 +224,13 @@ body {
     align-items: center;
 }
 
+#hero .wrappers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
 #hero {
     max-width: 1200px;
     margin: 0 auto;
@@ -256,6 +263,18 @@ body {
 
 }
 
+
+#hero .hero-image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-basis: 60%;
+}
+
+#hero .hero-image .oymslogo{
+    width: 500px;
+}
+
 /* End of Hero Section*/
 
 
@@ -273,14 +292,12 @@ body {
 #WhatsHappening #WhatsHappening{
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 #WhatsHappening .WH-items{
     width: 100%;
     display: flex;
     padding-top: 40px;
-    
 }
 
 #WhatsHappening .WH-item{
@@ -301,6 +318,13 @@ body {
     margin: 20px;
 }
 
+#WhatsHappening .imagesize{
+    width: 400px;
+    height: 400px;
+}
+
+
+
 /*Whats Happening section end*/
 
 
@@ -315,6 +339,7 @@ body {
 
 #WhoAreWe .Who-Are-We-item{
     width: 100%;
+    height: auto;
     padding: 10px;
     text-align: center;
     margin: 5px;
@@ -498,7 +523,7 @@ h9 {
     padding-top: 30px;
     color: white;
     letter-spacing: 3px;
-    padding-left: 550px;
+    display: block;
 }
 
 
@@ -567,4 +592,134 @@ p {
     opacity: 0;
     transition: ease-in-out 0.5s;
 
+}
+
+
+@media only screen and (max-width:768px){
+    
+    #hero .wrapper{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    /* Hero Section */
+    #hero .hero-container {
+        background-color: white;
+        height: 91vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #hero h2 {
+        display: block;
+        width: fit-content;
+        position: relative;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 75px;
+    
+    }
+
+    #hero p{
+        font-size: 14px;
+        line-height: 42px;
+        color: darkgrey;
+        width: 400px;
+    }
+
+    #hero .hero-image{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    
+    #hero .hero-image .oymslogo{
+        width: 300px;
+    }
+    
+    #hero .wrappers{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    /*End of Hero Section */
+
+    /* Whats Happening Section */
+
+    #WhatsHappening .WH-items{
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    #WhatsHappening .WH-item{
+        width: 100%;
+        text-align: center;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4);
+        background-color: #ffffff;
+        background-position: center;
+    }
+    
+    #WhatsHappening .WH-item-p{
+        margin: 20px;
+    }
+    
+    #WhatsHappening .imagesize{
+        width: 200px;
+        height: 200px;
+    }
+
+    h9 {
+        font-weight: 700;
+        text-align: center;
+        font-size: 45px;
+        padding-bottom: 35px;
+        padding-top: 30px;
+        color: white;
+        letter-spacing: 3px;
+    }
+
+
+    /* End of Whats Happening Section */
+
+
+    /* Who are we section */
+
+    #WhoAreWe .Who-Are-We-container .Who-Are-We-item{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    #WhoAreWe .Who-Are-We-text{
+        box-shadow:  5px 5px 20px rgb(180, 180, 180);
+        background-color:#FFF9F0;
+        background-position: center;
+        border-radius: 25px;
+        padding: 50px;
+        margin: 25px ;
+        margin-bottom: 100px;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        
+    }
+
+    h6 {
+        font-weight: 700;
+        text-align: center;
+        font-size: 45px;
+        padding-bottom: 35px;
+        padding-top: 30px;
+        color: black;
+        letter-spacing: 3px;
+    }
+    
+    
+    /* End of who are We Section */
 }
