@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/oymsLOGO.png">
+    <link rel="stylesheet" href="blog-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>OYMS Website - Home</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm (){
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/13616/',
+                type:'post',
+                data:$("#myForm").serializeArray(),
+                success: function(){
+                  alert("Thank you for subscribing!")
+                },
+                error: function(){
+                  alert("There was an error.")
+                }
+            });
+        }
+        </script>
+</head>
+
+<body>
+    
+    <!--Header-->
+    <section id="header">
+        
+        <div class="nav-container">
+            <div class="wrapper">
+                <nav>
+                    <a img class="logo" href="index.html"><img class="logo" src="img/oymsLOGO.png" alt="logo" width="125"/></a>
+    
+                    <ul class="nav-items">
+                        <li> <a href="index.html">HOME</a> </li>
+                        <li> <a href="about.html">ABOUT</a> </li>
+                        <li> <a href="events.html">EVENTS</a> </li>
+                        <li> <a href="blog.html">BLOG</a> </li>
+                        <li> <a href="podcast.html">PODCAST</a> </li>
+                        <li> <a href="partnerships.html">PARTNERSHIPS</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--End of Header-->
+    
+    <!--splash screen stuff-->
+
+    <div class ="intro">
+        <h1 class="logo-header">
+            <span class="logoIntro">OY</span><span class="logoIntro">MS</span>
+        </h1>
+    </div>
+
+    <!---Hero Section-->
+    <section id="hero">
+        <div class="hero-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="wrappers">
+                <header>
+                    <div class="hero-content">
+                        <h2>ONTARIO YOUTH</h2>
+                        <h2>MEDICAL SOCIETY</h2>
+                    </br>
+                        <p>OYMS focuses on providing equal opportunities and resources to educate prospective medical students on the key issues in the healthcare field.</p>
+                        <a href="about.html" type="button" class="cta">LEARN MORE</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="img/oymslogo 1.jpg" alt="" class="oymslogo"/>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </section>
+
+    <!---End Hero Section-->
+
+    <!--Second Section-->
+    <section id="WhatsHappening">
+        <div class="WhatsHappening-container" data-aos="fade-up" data-aos-duration="1000">
+        </br>
+    </br>
+            <h9>WHAT'S HAPPENING</h9>
+            <div class="WH-items">
+                <div class="WH-item">
+                    <img src="img/event-image.png" alt="" class="imagesize"/>
+                    <h7>EVENTS</h7>
+                    <div class="WH-item-p">
+                        <p>Check out the events we will be running in the near future! Join us as our panelists share their personal experience on the medical school entry process. </p>
+                    </div>
+                    <a href="events.html" type="button" class="cta1">LEARN MORE</a>
+                </div>
+                <div class="WH-item">
+                    <img src="img/oymsbreakdown.png" alt="" class="imagesize"/>
+                    <h7>OYMS BREAKDOWN </h7>
+                    <div class="WH-item-p">
+                        <p>Get the latest updates on our weekly blog posts, where we cover post-secondary opportunities, careers in healthcare and medicine, student life hacks, research, and many more!</p>
+                    </div>
+                    <a href="blog.html" type="button" class="cta1">OYMS BLOG</a>
+                </div>
+                <div class="WH-item">
+                    <img src="img/unfilteredimgfile.jpg" alt="" class="imagesize"/>
+                    <h7>OYMS UNFILTERED</h7>
+                    <div class="WH-item-p">
+                        <p>A podcast all about encouraging youth to explore the field of medicine! Join Samirah and Adrian as they discuss university, med school and everything science with youth and professionals. </p>
+                    </div>
+                    <a href="podcast.html" type="button" class="cta1">OYMS PODCAST</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--End of Second Section-->
+
+    <!--Start of Third Section-->
+    <section id="WhoAreWe">
+        <div class="Who-Are-We-container" data-aos="fade-up" data-aos-duration="1000"> 
+        </br>
+            <h6>WHO ARE WE</h6>
+            <br>
+            <div class="Who-Are-We-text">
+                <p>The Ontario Youth Medical Society is a student-led, non-profit organization focused on educating youth and making a difference in medicine. </p>
+            </div>
+            <div class="Who-Are-We-item">
+                <img src="img/Full Team 1.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!--End of Third Section-->
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <!--Start of fourth section-->
+    <section id="ExclusiveOpportunities">
+        <div class="ExclusiveOpportunities-container" data-aos="fade-up" data-aos-duration="1000">
+            <h8>GET EXCLUSIVE OPPORTUNITIES!</h8>
+            <p>Subscribe to our newsletter to get exclusive event offers, career advice & more.</p>
+            <div class="newsletter">
+            <form id="myForm">
+                <input name="Email" placeholder="Email"/>
+            </form>
+            <button onclick="SubForm()">Subscribe</button>
+        </div> 
+        </div>
+    </section>
+
+    <!--End of Fourth Section-->
+
+
+    <!--Start of Fifth Section-->
+    <section id="OurPartners">
+        <div class="OurPartners-container" data-aos="fade-up" data-aos-duration="1000">
+            <h6>OUR PARTNERS</h6>
+            <div id=logo1>
+                <a href="https://joinjuno.com/ " target="_blank">
+                <img src="img/PartnerLogo1 1.jpg" width="400px" height="400px" alt=""/></a>
+            </div>
+            <div id="logo2">
+                <a href="https://steamfoundationtea.wixsite.com/steam" width="400px" height="400px" target="_blank">
+                <img src="img/steam_logo2.jpg" alt=""/></a>
+            </div>
+        </div>
+    </section>
+
+    <!--End of Fifth Section-->
+
+
+    <footer class = footer>
+        <div> 
+            <div class = social-logos>
+                <a href="https://www.facebook.com/Ontario-Youth-Medical-Society-109291860860254/?ref=br_rs" target="_blank">
+                <img src="img/footer-images/facebook.png" alt="" width="40" height="40"/>
+                </a>
+                <a href="https://www.instagram.com/ontarioyouthmedsociety/" target="_blank">
+                <img src="img/footer-images/instagram.png" alt="" width="40" height="40"/>
+                </a>
+                <a href="https://twitter.com/ontarioyouthmed" target="_blank">
+                <img src="img/footer-images/twitter.png" alt="" width="40" height="40"/>
+                </a>
+                <a href="https://www.linkedin.com/company/ontario-youth-medical-society/?originalSubdomain=ca" target="_blank">
+                <img src="img/footer-images/linkedin.png" alt="" width="40" height="40"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCQyKYtcVh5vSW0ySEWl9l0Q/featured" target="_blank">
+                <img src="img/footer-images/youtube.png" alt="" width="40" height="40"/>
+                </a>
+                <a href="mailto:ontarioyouthmedicalsociety@gmail.com" target="_blank">
+                <img src="img/footer-images/email.png" alt="" width="40" height="40"/>
+                </a>
+                <a href="https://ontarioyouthmedicalsociety.medium.com/" target="_blank">
+                <img src="img/footer-images/medium.png" alt="" width="40" height="40"/>
+                </a>
+            </div>
+        
+        <div>
+            <img class = footerlogo src="img/oymslogo 1.jpg" alt="" width="200" height="200">   
+        
+            <p class = footertext>Ontario Youth Medical Society</p> 
+            <p>ontarioyouthmedicalsociety@gmail.com</p>
+            <p>Toronto, Ontario</p>   
+        </div>
+        
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
